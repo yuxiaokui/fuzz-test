@@ -13,13 +13,13 @@ size_t DoStuff(const std::string &str) {
   size_t Idx = 0;
   if (str.size() > 5)
     Idx++;
-  if (str.find("foo") != std::string::npos)
+  if (str.find("food") != std::string::npos)
     Idx++;
-  if (str.find("bar") != std::string::npos)
+  if (str.find("ball") != std::string::npos)
     Idx++;
-  if (str.find("ouch") != std::string::npos)
+  if (str.find("touch") != std::string::npos)
     Idx++;
-  if (str.find("omg") != std::string::npos)
+  if (str.find("imges") != std::string::npos)
     Idx++;
   return Vec[Idx];
 }
